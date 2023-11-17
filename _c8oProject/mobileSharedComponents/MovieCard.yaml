@@ -1,0 +1,99 @@
+↓CardContainer [ngx.components.UIDynamicElement-1700128013846]: 
+  beanData: '{"ionBean":"Card"}'
+  tagName: ion-card
+  ↓LazyImage [ngx.components.UIDynamicElement-1700128013849]: 
+    beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Shared\",\"project\":\"TutorialFront\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1700128013767,\"regular\":true}],\"path\":\"?.imgUrl\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+    comment: Movie Poster
+    tagName: ion-img
+    ↓FormatLayout [ngx.components.UIDynamicAttr-1700128013852]: 
+      beanData: '{"ionBean":"FormatLayout","TextAlignment":"plain:ion-text-left"}'
+      selfClose: false
+      tagName: FormatLayout
+    ↓ImageSize [ngx.components.UIStyle-1700137697827]: 
+      styleContent: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '	height: 300px;
+              '
+  ↓CardHeader [ngx.components.UIDynamicElement-1700128013855]: 
+    beanData: '{"ionBean":"CardHeader"}'
+    tagName: ion-card-header
+    ↓CardTitle [ngx.components.UIDynamicElement-1700128013858]: 
+      beanData: '{"ionBean":"CardTitle"}'
+      tagName: ion-card-title
+      ↓TextItem [ngx.components.UIDynamicElement-1700128013861]: 
+        beanData: '{"ionBean":"TextItem"}'
+        tagName: ion-text
+        ↓some_text [ngx.components.UIText-1700128013864]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Shared","project":"FrontComponentLibrary","input":"","model":{"data":[{"priority":1700128013767,"regular":true}],"path":"?.title","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓CardSubTitle [ngx.components.UIDynamicElement-1700128013867]: 
+      beanData: '{"ionBean":"CardSubTitle"}'
+      tagName: ion-card-subtitle
+      ↓TextItem [ngx.components.UIDynamicElement-1700128013870]: 
+        beanData: '{"ionBean":"TextItem"}'
+        tagName: ion-text
+        ↓some_text [ngx.components.UIText-1700128013873]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Shared","project":"FrontComponentLibrary","input":"","model":{"data":[{"priority":1700128013767,"regular":true}],"path":"?.release_date","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓TextSize [ngx.components.UIStyle-1700138020981]: 
+      styleContent: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '	height: 100px;
+              '
+  ↓Style [ngx.components.UIStyle-1700128013885]: 
+    isEnabled: false
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '/**
+             * Custom properties (sometimes referred to as CSS variables or cascading variables)
+             * are entities defined by CSS authors that contain specific values to be reused throughout a document.
+             * They are set using custom property notation, e.g.: --main-color: black;
+             * and are accessed using the var() function, e.g.: color: var(--main-color);
+             * You can find below your component''s properties you can customize within the page.
+             * If you''d like to make some customizations for whole app, please see your app Style & Theme components.
+             * For more informations see https://ionicframework.com/docs/theming.
+            **/
+            //--background	//Background of the card
+            //--color	//Color of the card
+            	
+            	border-radius: 10px;
+            '
+  ↓Tooltips [ngx.components.UIDynamicAttr-1700132497426]: 
+    beanData: '{"ionBean":"Tooltips","Tooltip":"source:{\"filter\":\"Shared\",\"project\":\"TutorialFront\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1700128013767,\"regular\":true}],\"path\":\"?.overview\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+    comment: Tooltip that contains the movie description
+    selfClose: false
+    tagName: Tooltips
+↓imgUrl [ngx.components.UICompVariable-1700128359420]: 
+  value: '''https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg'''
+↓title [ngx.components.UICompVariable-1700128386186]: 
+  value: '''Movie'''
+↓overview [ngx.components.UICompVariable-1700131676999]: 
+  value: '''Description'''
+↓release_date [ngx.components.UICompVariable-1700131740525]: 
+  value: '''00/00/00'''
+↓CardStyle [ngx.components.UIStyle-1700126396447]: 
+  comment: Card styles
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'ion-card{
+          
+          	border-radius: 20px;
+          	--background: #FFF;
+          	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+          }'
